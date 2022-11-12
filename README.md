@@ -10,21 +10,20 @@ This resource comprises English queries with query–document relevance judgment
 ### Version 1.1
 
 #### 1. Dataset (topic, qrels, folds, collections)
-&nbsp;&nbsp;&nbsp;&nbsp; [Ar](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-arabic.tar.gz) \| [Bn](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-bengali.tar.gz) \| [En](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-english.tar.gz) \| [Fi](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-finnish.tar.gz) \| [Id](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-indonesian.tar.gz) \| [Ja](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-japanese.tar.gz) \| [Ko](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-korean.tar.gz) \| [Ru](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-russian.tar.gz) \| [Sw](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-swahili.tar.gz) \| [Te](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-telugu.tar.gz) \| [Th](https://git.uwaterloo.ca/jimmylin/mr.tydi/-/raw/master/data/mrtydi-v1.1-thai.tar.gz)
+&nbsp;&nbsp;&nbsp;&nbsp; [Afr]() \| [Amh]() \| [Ary]() \| [Arz]() \| [Hau]() \| [Ibo]() \| [Nso]() \| [Sna]() \| [Som]() \| [Swa]() \| [Tir](Tir) \| [Twi](Twi) \| [Wol](Wol) \| [Yor](Yor) \| [Zul](Zul)
 
 &nbsp;&nbsp;&nbsp;&nbsp;The dataset (v1.1) is also available on HuggingFace Dataset:
-- [castorini/mr-tydi](https://huggingface.co/datasets/castorini/mr-tydi)
-- [castorini/mrtydi-corpus](https://huggingface.co/datasets/castorini/mr-tydi-corpus)
+- [castorini/africlirmatrix](https://huggingface.co/datasets/castorini/africlirmatrix)
+- [castorini/africlirmatrix-corpus](https://huggingface.co/datasets/castorini/africlirmatrix-corpus)
 
 #### 2. Pre-built sparse index (for BM25)
-&nbsp;&nbsp;&nbsp;&nbsp; [Ar](https://vault.cs.uwaterloo.ca/s/7oDFnq8FmTazf2a/download) | [Bn](https://vault.cs.uwaterloo.ca/s/HaPaz2wFbRMP2LK/download) \| [En](https://vault.cs.uwaterloo.ca/s/w4ccMwH5BLnXQ3j/download) \| [Fi](https://vault.cs.uwaterloo.ca/s/Pgd3mqjy77a6FR8/download) \| [Id](https://vault.cs.uwaterloo.ca/s/tF8NE7pWZ2xGix7/download) \| [Ja](https://vault.cs.uwaterloo.ca/s/ema8i83zqJr7n48/download) \| [Ko](https://vault.cs.uwaterloo.ca/s/igmEHCTjTwNi3de/download) \| [Ru](https://vault.cs.uwaterloo.ca/s/Pbi9xrD7jSYaxnX/download) \| [Sw](https://vault.cs.uwaterloo.ca/s/SWqajDQgq8wppf6/download) \| [Te](https://vault.cs.uwaterloo.ca/s/DAB6ba5ZF98awH6/download) \| [Th](https://vault.cs.uwaterloo.ca/s/2Ady6AwBwNbYLpg/download)
+&nbsp;&nbsp;&nbsp;&nbsp; [Afr]() \| [Amh]() \| [Ary]() \| [Arz]() \| [Hau]() \| [Ibo]() \| [Nso]() \| [Sna]() \| [Som]() \| [Swa]() \| [Tir](Tir) \| [Twi](Twi) \| [Wol](Wol) \| [Yor](Yor) \| [Zul](Zul)
 
 #### 3. Pre-built dense index (for mDPR)
-&nbsp;&nbsp;&nbsp;&nbsp; [Ar](https://vault.cs.uwaterloo.ca/s/Jgj3rYjbyRrmJs8/download) \| [Bn](https://vault.cs.uwaterloo.ca/s/4PpkzXAQtXFFJHR/download) \| [En](https://vault.cs.uwaterloo.ca/s/A7pjbwYeoT4Krnj/download) \| [Fi](https://vault.cs.uwaterloo.ca/s/erNYkrYzRZxpecz/download) \| [Id](https://vault.cs.uwaterloo.ca/s/BpR3MzT7KJ6edx7/download) \| [Ja](https://vault.cs.uwaterloo.ca/s/k7bptHT8GwMJpnF/download) \| [Ko](https://vault.cs.uwaterloo.ca/s/TigfYMde94YWAoE/download) \| [Ru](https://vault.cs.uwaterloo.ca/s/eN7demnmnspqxjk/download) \| [Sw](https://vault.cs.uwaterloo.ca/s/JgiX8PRftnqcPwy/download) \| [Te](https://vault.cs.uwaterloo.ca/s/dkm6RGdgRbnwiX2/download) \| [Th](https://vault.cs.uwaterloo.ca/s/fFrRYefd3nWFR3J/download)
+&nbsp;&nbsp;&nbsp;&nbsp; [Afr]() \| [Amh]() \| [Ary]() \| [Arz]() \| [Hau]() \| [Ibo]() \| [Nso]() \| [Sna]() \| [Som]() \| [Swa]() \| [Tir](Tir) \| [Twi](Twi) \| [Wol](Wol) \| [Yor](Yor) \| [Zul](Zul)
 
 #### 4. Checkpoints
-- [castorini/mdpr-question-nq](https://huggingface.co/castorini/mdpr-question-nq)
-- [castorini/mdpr-passage-nq](https://huggingface.co/castorini/mdpr-passage-nq)
+- [castorini/mdpr-tied-pft-msmarco](https://huggingface.co/castorini/mdpr-tied-pft-msmarco)
 
 ## Baseline Results
 Baseline BM25, mDPR (fine-tuned on ms marco) and sparse-dense hybrid results on Africlirmatrix
