@@ -5,16 +5,20 @@
 AfriCLIRMatrix is a test collection for cross-lingual information retrieval research in 15 diverse African languages.
 This resource comprises English queries with query–document relevance judgments in 15 African languages automatically mined from Wikipedia
 
+## Paper
+
+[AfriCLIRMatrix: Enabling Cross-Lingual Information Retrieval for African Languages](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.597/)
+
 ## Download Corpus
 
 ### Version 1.1
 
 #### 1. Dataset (topic, qrels, folds, collections)
-&nbsp;&nbsp;&nbsp;&nbsp; [Afr]() \| [Amh]() \| [Ary]() \| [Arz]() \| [Hau]() \| [Ibo]() \| [Nso]() \| [Sna]() \| [Som]() \| [Swa]() \| [Tir](Tir) \| [Twi](Twi) \| [Wol](Wol) \| [Yor](Yor) \| [Zul](Zul)
+&nbsp;&nbsp;&nbsp;&nbsp; [Afr](https://huggingface.co/datasets/castorini/africlirmatrix) \| [Amh](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/amharic/train) \| [Ary](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/moroccan_arabic/train) \| [Arz](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/egyptian_arabic/train) \| [Hau](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/hausa/train) \| [Ibo](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/igbo/train) \| [Nso](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/northern_sotho/train) \| [Sna](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/shona/train) \| [Som](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/somali/train) \| [Swa](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/swahili/train) \| [Tir](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/tigrinya/train) \| [Twi](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/twi/train) \| [Wol](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/wolof/train) \| [Yor](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/yoruba/train) \| [Zul](https://huggingface.co/datasets/castorini/africlirmatrix/viewer/zulu/train)
 
 &nbsp;&nbsp;&nbsp;&nbsp;The dataset (v1.1) is also available on HuggingFace Dataset:
 - [castorini/africlirmatrix](https://huggingface.co/datasets/castorini/africlirmatrix)
-- [castorini/africlirmatrix-corpus](https://huggingface.co/datasets/castorini/africlirmatrix-corpus)
+- [castorini/africlirmatrix-qrels-topics](https://github.com/castorini/africlirmatrix/tree/main/test)
 
 #### 2. Pre-built sparse index (for BM25)
 &nbsp;&nbsp;&nbsp;&nbsp; [Afr]() \| [Amh]() \| [Ary]() \| [Arz]() \| [Hau]() \| [Ibo]() \| [Nso]() \| [Sna]() \| [Som]() \| [Swa]() \| [Tir](Tir) \| [Twi](Twi) \| [Wol](Wol) \| [Yor](Yor) \| [Zul](Zul)
@@ -41,6 +45,7 @@ Baseline BM25, mDPR (fine-tuned on ms marco) and sparse-dense hybrid results on 
 | BM25 (default) | 0.584 | 0.174 | 0.224 | 0.309 | 0.650 | 0.685 | 0.629 | 0.346 | 0.403 | 0.556 | 0.080 | 0.560 | 0.166 | 0.627 | 0.289 | 0.418 |
 | mDPR (MS Marco) |  0.591 | 0.382 | 0.694 | 0.248 | 0.542 | 0.668 | 0.670 | 0.642 | 0.445 | 0.595 | 0.580 | 0.664 | 0.548 | 0.655 | 0.361 | 0.552 | 
 | Hybrid |  0.727 | 0.388 | 0.698 | 0.416 | 0.722 | 0.804 | 0.766 | 0.684 | 0.535 | 0.690 | 0.600 | 0.732 |0.556 | 0.750 | 0.448 | 0.634 |
+
 
 ## Citation
 If you find our paper useful or use the dataset in your work, please cite our paper and the CLIRMatrix paper:
