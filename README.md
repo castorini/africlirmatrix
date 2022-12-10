@@ -51,7 +51,7 @@ Baseline BM25, mDPR (fine-tuned on ms marco) and sparse-dense hybrid results on 
 If you find our paper useful or use the dataset in your work, please cite our paper and the CLIRMatrix paper:
 
 ```bash
-@inproceedings{sun-duh-2020-clirmatrix,
+@inproceedings{africlirmatrix,
     title = "{AfriCLIRMatrix}: Enabling Cross-Lingual Information Retrieval for African Languages",
     author = "Ogundepo, Odunayo and Zhang, Xinyu and Sun, Shuo and Duh, Kevin and Lin, Jimmy",
     booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
