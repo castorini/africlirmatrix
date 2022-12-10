@@ -51,7 +51,15 @@ Baseline BM25, mDPR (fine-tuned on ms marco) and sparse-dense hybrid results on 
 If you find our paper useful or use the dataset in your work, please cite our paper and the CLIRMatrix paper:
 
 ```bash
-coming soon ....
+@inproceedings{africlirmatrix,
+    title = "{AfriCLIRMatrix}: Enabling Cross-Lingual Information Retrieval for African Languages",
+    author = "Ogundepo, Odunayo and Zhang, Xinyu and Sun, Shuo and Duh, Kevin and Lin, Jimmy",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = dec,
+    year = "2022",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.597",
+}
 ```
 
 ```bash
@@ -66,8 +74,6 @@ coming soon ....
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2020.emnlp-main.340",
     doi = "10.18653/v1/2020.emnlp-main.340",
-    pages = "4160--4170",
-    abstract = "We present CLIRMatrix, a massively large collection of bilingual and multilingual datasets for Cross-Lingual Information Retrieval extracted automatically from Wikipedia. CLIRMatrix comprises (1) BI-139, a bilingual dataset of queries in one language matched with relevant documents in another language for 139x138=19,182 language pairs, and (2) MULTI-8, a multilingual dataset of queries and documents jointly aligned in 8 different languages. In total, we mined 49 million unique queries and 34 billion (query, document, label) triplets, making it the largest and most comprehensive CLIR dataset to date. This collection is intended to support research in end-to-end neural information retrieval and is publicly available at [url]. We provide baseline neural model results on BI-139, and evaluate MULTI-8 in both single-language retrieval and mix-language retrieval settings.",
 }
 ```
 
