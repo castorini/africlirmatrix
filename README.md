@@ -7,7 +7,7 @@ This resource comprises English queries with query–document relevance judgment
 
 ## Paper
 
-[AfriCLIRMatrix: Enabling Cross-Lingual Information Retrieval for African Languages](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.597/)
+[AfriCLIRMatrix: Enabling Cross-Lingual Information Retrieval for African Languages](https://aclanthology.org/2022.emnlp-main.597/)
 
 ## Download Corpus
 
